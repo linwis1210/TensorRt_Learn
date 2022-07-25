@@ -1,12 +1,9 @@
 # TensorRT部署优化
 
-- CDNN、CDNN1为模型结构
-
 - produce_onnx.py 为把训练好的模型转化为onnx
-
 - run_cuda_9.py、run_cuda_16.py为预处理优化
-
 - run_dnn_onnx.py、run_cnn_onnx.py分别为对dnn和cnn进行推理优化
+- cuda中为预处理优化函数
 
 ## 优化结果：
 
